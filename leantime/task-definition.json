@@ -52,6 +52,11 @@
     "taskRoleArn": "arn:aws:iam::322716019423:role/LabRole",
     "executionRoleArn": "arn:aws:iam::322716019423:role/LabRole",
     "networkMode": "awsvpc",
+    "awsVpcConfiguration": {
+        "subnets": ["subnet-045c9fcf9bcf2b9ae "],
+        "securityGroups": ["sg-0d1d67182684a131d"],
+        "assignPublicIp": "DISABLED"
+    },
     "volumes": [
         {
             "name": "lks-volume-public_userfiles",
