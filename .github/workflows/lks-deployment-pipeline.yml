@@ -93,11 +93,11 @@ jobs:
           echo "image=$ECR_REGISTRY/$ECR_REPOSITORY:latest" >> $GITHUB_OUTPUT
           echo "IMAGE_FULL_URI=$ECR_REGISTRY/$ECR_REPOSITORY:latest" >> $GITHUB_ENV
 
-      - name: deploy ecs task definition
-        uses: aws-actions/amazon-ecs-deploy-task-definition@v2
-        with:
-          task-definition: ${{ env.GATUS_TASK_DEFINITION }}
-          service: ${{ env.ECS_GATUS_SERVICE }}
-          cluster: ${{ env.ECS_CLUSTER }}
-          force-new-deployment: true
-          run-task-tags: '[{"key": "", "value": ""} , ...]'
+      # - name: deploy ecs task definition
+      #   uses: aws-actions/amazon-ecs-deploy-task-definition@v2
+      #   with:
+      #     task-definition: ${{ env.GATUS_TASK_DEFINITION }}
+      #     service: ${{ env.ECS_GATUS_SERVICE }}
+      #     cluster: ${{ env.ECS_CLUSTER }}
+      #     force-new-deployment: true
+      #     run-task-tags: '[{"key": "", "value": ""} , ...]'
