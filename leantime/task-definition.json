@@ -24,11 +24,6 @@
                     "name": "lks-leantime-port"
                 }
             ],
-            "command": [
-                "/bin/sh",
-                "-c",
-                "cp sample.env .env"
-            ],
             "environment": [
                 {
                     "name": "LEAN_APP_URL",
@@ -104,7 +99,7 @@
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-090dac3d9aa26a510",
+                    "accessPointId": "fsap-0a842b71ad6b33817",
                     "iam": "ENABLED"
                 }
             }
@@ -116,7 +111,7 @@
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0e54fc992c48fb6de",
+                    "accessPointId": "fsap-0f5b04c8e29517091",
                     "iam": "ENABLED"
                 }
             }
@@ -128,7 +123,7 @@
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-03173d6e9205cf67e",
+                    "accessPointId": "fsap-0a16b3186f3060a20",
                     "iam": "ENABLED"
                 }
             }
