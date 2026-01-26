@@ -53,8 +53,8 @@
     "executionRoleArn": "arn:aws:iam::322716019423:role/LabRole",
     "networkMode": "awsvpc",
     "awsVpcConfiguration": {
-        "subnets": ["subnet-045c9fcf9bcf2b9ae "],
-        "securityGroups": ["sg-0d1d67182684a131d"],
+        "subnets": ["subnet-045c9fcf9bcf2b9ae", "subnet-0a4eb6e6149266778 "],
+        "securityGroups": ["sg-0842a4ff40eeebdf9"],
         "assignPublicIp": "DISABLED"
     },
     "volumes": [
