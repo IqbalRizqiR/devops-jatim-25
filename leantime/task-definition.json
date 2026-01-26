@@ -66,7 +66,7 @@
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
                     "accessPointId": "fsap-0a72b0756bf9fd60d",
-                    "iam": "DISABLED"
+                    "iam": "ENABLED"
                 }
             }
         },
@@ -78,7 +78,7 @@
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
                     "accessPointId": "fsap-0ebd282351a7a1579",
-                    "iam": "DISABLED"
+                    "iam": "ENABLED"
                 }
             }
         },
@@ -90,7 +90,7 @@
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
                     "accessPointId": "fsap-092265e20591c1d6d",
-                    "iam": "DISABLED"
+                    "iam": "ENABLED"
                 }
             }
         }
