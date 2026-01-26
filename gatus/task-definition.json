@@ -23,7 +23,7 @@
             },
             "memory": 1024,
             "mountPoints": [],
-            "name": "lks-gatus-container",
+            "name": "gatus",
             "portMappings": [
                 {
                     "appProtocol": "http",
