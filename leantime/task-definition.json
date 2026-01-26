@@ -65,7 +65,7 @@
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0d474544d42614ccd",
+                    "accessPointId": "fsap-0a72b0756bf9fd60d",
                     "iam": "DISABLED"
                 }
             }
@@ -77,7 +77,7 @@
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0844923f7b1638f53",
+                    "accessPointId": "fsap-0ebd282351a7a1579",
                     "iam": "DISABLED"
                 }
             }
@@ -89,7 +89,7 @@
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0c0de932e60df7ca0",
+                    "accessPointId": "fsap-092265e20591c1d6d",
                     "iam": "DISABLED"
                 }
             }
