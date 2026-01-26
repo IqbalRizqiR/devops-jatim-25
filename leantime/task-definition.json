@@ -62,7 +62,7 @@
             "name": "lks-volume-public_userfiles",
             "efsVolumeConfiguration": {
                 "fileSystemId": "fs-0741f985362330fdb",
-                "rootDirectory": "/",
+                "rootDirectory": "/public-files",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
                     "accessPointId": "fsap-0a72b0756bf9fd60d",
@@ -74,7 +74,7 @@
             "name": "lks-volume-userfiles",
             "efsVolumeConfiguration": {
                 "fileSystemId": "fs-0741f985362330fdb",
-                "rootDirectory": "/",
+                "rootDirectory": "/userfiles",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
                     "accessPointId": "fsap-0ebd282351a7a1579",
@@ -86,7 +86,7 @@
             "name": "lks-volume-plugins",
             "efsVolumeConfiguration": {
                 "fileSystemId": "fs-0741f985362330fdb",
-                "rootDirectory": "/",
+                "rootDirectory": "/plugins",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
                     "accessPointId": "fsap-092265e20591c1d6d",
