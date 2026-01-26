@@ -46,7 +46,7 @@
     "networkMode": "awsvpc",
     "placementConstraints": [],
     "registeredAt": "2025-10-19T18:06:45.031Z",
-    "registeredBy": "arn:aws:sts::322716019423:assumed-role/voclabs/user4260126=129629-26",
+    "registeredBy": "arn:aws:sts::322716019423:assumed-role/voclabs/user4741604=149911-110",
     "requiresAttributes": [
         {
             "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
