@@ -24,6 +24,11 @@
                     "name": "lks-leantime-port"
                 }
             ],
+            "command": [
+                "/bin/sh",
+                "-c",
+                "cp sample.env .env"
+            ],
             "environment": [
                 {
                     "name": "LEAN_APP_URL",
