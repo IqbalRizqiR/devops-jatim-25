@@ -24,6 +24,32 @@
                     "name": "lks-leantime-port"
                 }
             ],
+            "environment": [
+                {
+                    "name": "LEAN_APP_URL",
+                    "value": "http://lks-oss-lb-645559201.us-east-1.elb.amazonaws.com"
+                },
+                {
+                    "name": "LEAN_APP_DIR",
+                    "value": "/"
+                },
+                {
+                    "name": "LEAN_DEBUG",
+                    "value": 0
+                },
+                {
+                    "name": "LEAN_DEFAULT_TIMEZONE",
+                    "value": "Asia/Jakarta"
+                },
+                {
+                    "name": "PGID",
+                    "value": 1000
+                },
+                {
+                    "name": "PUID",
+                    "value": 1000
+                }
+            ],
             "secrets": [
                 { "name": "LEAN_DB_HOST", "valueFrom": "arn:aws:ssm:us-east-1:322716019423:parameter/lks/db/host" },
                 { "name": "LEAN_DB_USER", "valueFrom": "arn:aws:ssm:us-east-1:322716019423:parameter/lks/db/username" },
@@ -65,7 +91,7 @@
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0a72b0756bf9fd60d",
+                    "accessPointId": "fsap-090dac3d9aa26a510",
                     "iam": "ENABLED"
                 }
             }
@@ -73,11 +99,11 @@
         {
             "name": "lks-volume-userfiles",
             "efsVolumeConfiguration": {
-                "fileSystemId": "fs-0741f985362330fdb",
+                "fileSystemId": "fsap-0e54fc992c48fb6de",
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0ebd282351a7a1579",
+                    "accessPointId": "fsap-0e54fc992c48fb6de",
                     "iam": "ENABLED"
                 }
             }
@@ -89,7 +115,7 @@
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-092265e20591c1d6d",
+                    "accessPointId": "fsap-03173d6e9205cf67e",
                     "iam": "ENABLED"
                 }
             }
