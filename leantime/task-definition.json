@@ -42,6 +42,10 @@
                     "value": "0"
                 },
                 {
+                    "name": "LEAN_SITENAME",
+                    "value": "LKS Leantime"
+                },
+                {
                     "name": "LEAN_DEFAULT_TIMEZONE",
                     "value": "Asia/Jakarta"
                 },
