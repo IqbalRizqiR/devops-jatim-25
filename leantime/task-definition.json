@@ -99,7 +99,7 @@
         {
             "name": "lks-volume-userfiles",
             "efsVolumeConfiguration": {
-                "fileSystemId": "fsap-0e54fc992c48fb6de",
+                "fileSystemId": "fsap-0741f985362330fdb",
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
