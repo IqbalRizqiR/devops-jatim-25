@@ -35,7 +35,7 @@
                 },
                 {
                     "name": "LEAN_DEBUG",
-                    "value": 0
+                    "value": "0"
                 },
                 {
                     "name": "LEAN_DEFAULT_TIMEZONE",
@@ -43,11 +43,11 @@
                 },
                 {
                     "name": "PGID",
-                    "value": 1000
+                    "value": "1000"
                 },
                 {
                     "name": "PUID",
-                    "value": 1000
+                    "value": "1000"
                 }
             ],
             "secrets": [
