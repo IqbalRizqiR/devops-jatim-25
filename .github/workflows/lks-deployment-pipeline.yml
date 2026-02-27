@@ -23,7 +23,6 @@ permissions:
   contents: read
 
 jobs:
-
   deploy_leantime:
     name: Deploy Leantime App
     runs-on: ubuntu-latest

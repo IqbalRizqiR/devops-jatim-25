@@ -10,7 +10,7 @@
             "environment": [],
             "environmentFiles": [],
             "essential": true,
-            "image": "322716019423.dkr.ecr.us-east-1.amazonaws.com/lks-gatus",
+            "image": "746761418387.dkr.ecr.us-east-1.amazonaws.com/lks-gatus",
             "logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
@@ -40,13 +40,13 @@
     ],
     "cpu": "512",
     "enableFaultInjection": false,
-    "executionRoleArn": "arn:aws:iam::322716019423:role/LabRole",
+    "executionRoleArn": "arn:aws:iam::746761418387:role/LabRole",
     "family": "lks-gatus-app",
     "memory": "1024",
     "networkMode": "awsvpc",
     "placementConstraints": [],
     "registeredAt": "2025-10-19T18:06:45.031Z",
-    "registeredBy": "arn:aws:sts::322716019423:assumed-role/voclabs/user4741604=149911-110",
+    "registeredBy": "arn:aws:sts::746761418387:assumed-role/voclabs/user4741604=149911-110",
     "requiresAttributes": [
         {
             "name": "com.amazonaws.ecs.capability.logging-driver.awslogs"
@@ -85,8 +85,8 @@
         "operatingSystemFamily": "LINUX"
     },
     "status": "ACTIVE",
-    "taskDefinitionArn": "arn:aws:ecs:us-east-1:322716019423:task-definition/lks-gatus-app:1",
-    "taskRoleArn": "arn:aws:iam::322716019423:role/LabRole",
+    "taskDefinitionArn": "arn:aws:ecs:us-east-1:746761418387:task-definition/lks-gatus-app:1",
+    "taskRoleArn": "arn:aws:iam::746761418387:role/LabRole",
     "volumes": [],
     "tags": []
 }

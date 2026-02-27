@@ -27,7 +27,7 @@
             "environment": [
                 {
                     "name": "LEAN_APP_URL",
-                    "value": "http://lks-oss-lb-645559201.us-east-1.elb.amazonaws.com"
+                    "value": "http://lks-oss-lb-1427542545.us-east-1.elb.amazonaws.com"
                 },
                 {
                     "name": "LEAN_APP_PORT",
@@ -59,11 +59,11 @@
                 }
             ],
             "secrets": [
-                { "name": "LEAN_DB_HOST", "valueFrom": "arn:aws:ssm:us-east-1:322716019423:parameter/lks/db/host" },
-                { "name": "LEAN_DB_USER", "valueFrom": "arn:aws:ssm:us-east-1:322716019423:parameter/lks/db/username" },
-                { "name": "LEAN_DB_PASSWORD", "valueFrom": "arn:aws:ssm:us-east-1:322716019423:parameter/lks/db/password" },
-                { "name": "LEAN_DB_DATABASE", "valueFrom": "arn:aws:ssm:us-east-1:322716019423:parameter/lks/db/name" },
-                { "name": "LEAN_DB_PORT", "valueFrom": "arn:aws:ssm:us-east-1:322716019423:parameter/lks/db/port" }
+                { "name": "LEAN_DB_HOST", "valueFrom": "arn:aws:ssm:us-east-1:746761418387:parameter/lks/db/host" },
+                { "name": "LEAN_DB_USER", "valueFrom": "arn:aws:ssm:us-east-1:746761418387:parameter/lks/db/username" },
+                { "name": "LEAN_DB_PASSWORD", "valueFrom": "arn:aws:ssm:us-east-1:746761418387:parameter/lks/db/password" },
+                { "name": "LEAN_DB_DATABASE", "valueFrom": "arn:aws:ssm:us-east-1:746761418387:parameter/lks/db/name" },
+                { "name": "LEAN_DB_PORT", "valueFrom": "arn:aws:ssm:us-east-1:746761418387:parameter/lks/db/port" }
             ],
             "mountPoints": [
                 {
@@ -83,23 +83,23 @@
             "volumesFrom": []
         }
     ],
-    "taskRoleArn": "arn:aws:iam::322716019423:role/LabRole",
-    "executionRoleArn": "arn:aws:iam::322716019423:role/LabRole",
+    "taskRoleArn": "arn:aws:iam::746761418387:role/LabRole",
+    "executionRoleArn": "arn:aws:iam::746761418387:role/LabRole",
     "networkMode": "awsvpc",
     "awsVpcConfiguration": {
-        "subnets": ["subnet-045c9fcf9bcf2b9ae", "subnet-0a4eb6e6149266778 "],
-        "securityGroups": ["sg-0d1d67182684a131d"],
+        "subnets": ["subnet-0c1e0d0e9e3801045", "subnet-0d8c7c7130448aa0c "],
+        "securityGroups": ["sg-00cd7515f8154631a"],
         "assignPublicIp": "DISABLED"
     },
     "volumes": [
         {
             "name": "lks-volume-public_userfiles",
             "efsVolumeConfiguration": {
-                "fileSystemId": "fs-0741f985362330fdb",
+                "fileSystemId": "fs-0303664d8251860b5",
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0a842b71ad6b33817",
+                    "accessPointId": "fsap-0788eb1b5dd4c2bb4",
                     "iam": "ENABLED"
                 }
             }
@@ -107,11 +107,11 @@
         {
             "name": "lks-volume-userfiles",
             "efsVolumeConfiguration": {
-                "fileSystemId": "fs-0741f985362330fdb",
+                "fileSystemId": "fs-0303664d8251860b5",
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0f5b04c8e29517091",
+                    "accessPointId": "fsap-0fce2a906223c784b",
                     "iam": "ENABLED"
                 }
             }
@@ -119,11 +119,11 @@
         {
             "name": "lks-volume-plugins",
             "efsVolumeConfiguration": {
-                "fileSystemId": "fs-0741f985362330fdb",
+                "fileSystemId": "fs-0303664d8251860b5",
                 "rootDirectory": "/",
                 "transitEncryption": "ENABLED",
                 "authorizationConfig": {
-                    "accessPointId": "fsap-0a16b3186f3060a20",
+                    "accessPointId": "fsap-004067d18a2fff92c",
                     "iam": "ENABLED"
                 }
             }
